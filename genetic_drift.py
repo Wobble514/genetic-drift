@@ -20,7 +20,7 @@ def simulate_one(N, p0, generations, seed=0): # Simulate allele-frequency drift 
     rng = np.random.default_rng(seed)
     freq = p0
     history = [freq]
-    for _ in range(generations):
+    for i in range(generations):
         copies = rng.binomial(2 * N, freq)  # next generation's count of allele A
         freq = copies / (2 * N)             # convert count back to a frequency
         history.append(freq)
