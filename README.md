@@ -1,6 +1,6 @@
 # Genetic drift (Wright-Fisher simulation)
 
-A small simulation of genetic drift: how allele frequencies change from
+A small simulation of genetic drift : how allele frequencies change from
 one generation to the next by random sampling alone, no selection, no
 mutation. The goal is to show two classic results of population genetics
 directly, from code short enough to read in one sitting.
