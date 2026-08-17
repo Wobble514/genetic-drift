@@ -14,7 +14,7 @@ evolve by chance alone, and how does population size change the outcome?
 
 A diploid population of `N` individuals carries `2N` copies of a gene. To
 form the next generation, each of the `2N` new copies is drawn at random and
-has probability `p` (the current frequency) of being allele *A*. Drawing `2N`
+has probability `p` (the current frequency) of being allele A. Drawing `2N`
 copies at probability `p` is a binomial draw, so the whole model is:
 
 ```python
